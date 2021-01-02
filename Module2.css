@@ -1,4 +1,3 @@
-/* For large devices */
 
 body {
     background-color: navy
@@ -37,6 +36,7 @@ p {
     font-weight: 600;
 }
 
+/* For large devices */
 @media (min-width:1200px) {
     .col-lg-4 {
         float: left;
@@ -44,7 +44,7 @@ p {
         margin: 5px
     }
 }
-
+/* For medium devices */
 @media (min-width: 950px) and (max-width: 1199px) {
     .col-md-6 {
         float: left;
