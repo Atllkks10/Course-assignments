@@ -1,0 +1,59 @@
+/* For large devices */
+
+body {
+    background-color: navy
+}
+
+.row {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px
+}
+
+p {
+    font-size: 16px;
+    border: 5px solid red;
+    padding: 5px;
+}
+
+.titles {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: gold;
+    text-align: center;
+    margin: 0px;
+}
+
+.text {
+    font-size: 15px;
+    background-color: lime;
+    margin-top: 0px;
+}
+
+.emphasized {
+    font-weight: 600;
+}
+
+@media (min-width:1200px) {
+    .col-lg-4 {
+        float: left;
+        width: 32.3%;
+        margin: 5px
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1199px) {
+    .col-md-6 {
+        float: left;
+        width: 48%;
+        margin: 5px;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+        margin: 5px;
+    }
+}
