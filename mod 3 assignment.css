@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(223, 223, 200);
+}
+
+.nav-buttons {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.nav-buttons :hover {
+    background-color: rgb(110, 167, 241)
+}
+
+#navbar-slogan {
+    float: right;
+    margin-right: 15px;
+}
+
+#About-Us {
+    width: 100%;
+    border-radius: 1;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 80px;
+    background-color: blanchedalmond;
+}
+
+#About-Us-Heading {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#About-Us-Paragraph {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#prices {
+    float: left;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+#pricing-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-us {
+    margin-top: 15px;
+}
+
+@media (max-width:576px) {
+    #About-Us {
+        width: 80%;
+        align: center;
+    }
+}
